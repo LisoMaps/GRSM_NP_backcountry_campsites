@@ -92,17 +92,17 @@ colors = chroma.scale("Greens").colors(6); //we'll use 5 classes of purples
 //this equal interval classification with 5 classes, takes the range of the
 //data (133) and divides it by 5, to show there are intervals of 27 per class
 //so...
-function setColor(sites_per_sq_mi) {
+function setColor(sites_per_sqmi) {
   var id = 0;
-  if (sites_per_sq_mi == 0.206159594) {
+  if (sites_per_sqmi == 0.206159594) {
     id = 5;
-  } else if (sites_per_sq_mi == 0.095144611) {
+  } else if (sites_per_sqmi == 0.095144611) {
     id = 4;
-  } else if (sites_per_sq_mi == 0.075063977) {
+  } else if (sites_per_sqmi == 0.075063977) {
     id = 3;
-  } else if (sites_per_sq_mi == 0.074963045) {
+  } else if (sites_per_sqmi == 0.074963045) {
     id = 2;
-  } else if (sites_per_sq_mi == 0.063481341) {
+  } else if (sites_per_sqmi == 0.063481341) {
     id = 1;
   } else {
     id = 0;
@@ -115,7 +115,7 @@ function setColor(sites_per_sq_mi) {
 // 7. Set style function that sets fill color property equal to total Airbnbs
 function style(feature) {
   return {
-    fillColor: setColor(feature.properties.sites_per_sq_mi),
+    fillColor: setColor(feature.properties.sites_per_sqmi),
     fillOpacity: 0.75,
     weight: 2,
     opacity: 0.75,
@@ -125,7 +125,7 @@ function style(feature) {
 
 // 8. Add county polygons
 L.geoJson
-  .ajax("data/grsm_rangerDistricts.geojson", {
+  .ajax("data/grsm_districts.geojson", {
     style: style,
   })
   .addTo(mymap);
