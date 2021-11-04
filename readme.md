@@ -19,3 +19,6 @@ Lower densities of backcountry campsites are displayed in lighter green shades, 
 #### Campsite location
 
 Campsite point data were downloaded as a GeoJSON and then dislayed on the map. Tent icons ([fontawesome](https://fontawesome.com/v5.15/icons/campground?style=solid)) show campsite locations as well as how one can access them. Clicking on an icon fires a popup containing the sites name, coordinates in decimal degrees (DD), and elevation in feet.
+
+
+https://lisomaps.github.io/GRSM_NP_backcountry_campsites/index.html
