@@ -75,7 +75,7 @@ grsm_backCountry = L.geoJson.ajax("data/grsm_backcountry_campsites.geojson", {
     });
   },
   attribution:
-    "&copy; <a href='http://jawg.io'> <b>Jawg</b>Maps</a> | &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors | Campsites and NP boundaries &copy; <a href='https://public-nps.opendata.arcgis.com/'>NPS Open Data</a> | Icons &copy; <a href = 'https://fontawesome.com/v5.15/icons/campground?style=solid'>fontawesome</a> | Map Author: Map: <a href='https://weircf.wixsite.com/e-portfolio'>Chip Weir</a>",
+    "&copy; <a href='http://jawg.io'> <b>Jawg</b>Maps</a> | &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors | Campsites and NP boundaries &copy; <a href='https://public-nps.opendata.arcgis.com/'>NPS Open Data</a> | Icons &copy; <a href = 'https://fontawesome.com/v5.15/icons/campground?style=solid'>fontawesome</a> | Map Author: <a href='https://weircf.wixsite.com/e-portfolio'>Chip Weir</a>",
 });
 
 // Add the Airbnbs to the map.
